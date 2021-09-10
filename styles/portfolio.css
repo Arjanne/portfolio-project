@@ -1,9 +1,29 @@
-h1 {
-  color: blue;
-  font-family: "Crimson Text", serif;
-  font-weight: bold;
+:root {
+  --pink-color-website: #fd0282;
+  --green-color-website: #15968e;
+  --blue-color-website: #5271ff;
+  --background-color-website: #f0f0f0;
+  --heading-font-family: "Saira Extra Condensed", sans-serif;
+  --default-font-family: "Zilla Slab", serif;
 }
-p {
-  color: green;
-  font-family: "Roboto", sans-serif;
+
+body {
+  background-color: var(--background-color-website);
+}
+
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+}
+
+h1 {
+  color: var(--blue-color-website);
+  font-size: 40px;
+}
+h2 {
+  font-family: var(--heading-font-family);
+  color: #242526;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 20px 0px;
 }
