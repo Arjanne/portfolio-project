@@ -3,6 +3,7 @@
   --green-color-website: #15968e;
   --blue-color-website: #5271ff;
   --background-color-website: #f0f0f0;
+  --text-color: #242526;
   --heading-font-family: "Saira Extra Condensed", sans-serif;
   --default-font-family: "Zilla Slab", serif;
 }
@@ -13,7 +14,7 @@ body {
 
 .hero {
   text-align: center;
-  padding: 140px 20px;
+  padding: 140px 20px 20px 20px;
 }
 
 h1 {
@@ -22,8 +23,23 @@ h1 {
 }
 h2 {
   font-family: var(--heading-font-family);
-  color: #242526;
+  color: var(--text-color);
   font-weight: bold;
   font-size: 50px;
   padding: 20px 0px;
+}
+p {
+  font-family: var(--default-font-family);
+  color: var(--text-color);
+  text-align: justify;
+}
+
+.col-sm-4 {
+  padding: 0px;
+}
+.container-text-home {
+  margin: 30px;
+}
+.col-md-6 {
+  padding: 0px 20px;
 }
