@@ -3,6 +3,7 @@
   --green-color-website: #15968e;
   --blue-color-website: #5271ff;
   --background-color-website: #f0f0f0;
+  --background-color-footer: #839376;
   --text-color: #242526;
   --heading-font-family: "Saira Extra Condensed", sans-serif;
   --default-font-family: "Zilla Slab", serif;
@@ -28,11 +29,32 @@ h2 {
   font-size: 50px;
   padding: 20px 0px;
 }
+h3 {
+  font-family: var(--default-font-family);
+  font-size: 12px;
+  padding: 15px 10px 15px 10px;
+  color: var(--background-color-website);
+}
+h4 {
+  font-family: var(--default-font-family);
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 200;
+  color: var(--background-color-website);
+}
 p {
   font-family: var(--default-font-family);
   font-size: 15px;
   color: var(--text-color);
   text-align: justify;
+}
+hr {
+  margin: auto;
+  text-align: center;
+  max-width: 50%;
+  color: var(--background-color-website);
+  opacity: 1;
 }
 
 .col-sm {
@@ -52,6 +74,26 @@ p {
   padding: 0px 30px 0px 30px;
   margin: 0px;
 }
+.footer {
+  background-color: var(--background-color-footer);
+  margin-top: 30px;
+}
+.logo-footer {
+  padding: 20px;
+  margin: auto;
+  max-width: 130px;
+  color: var(--background-color-website);
+}
+.d-flex {
+  gap: 30px;
+  color: var(--background-color-website);
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+.fab {
+  color: var(--background-color-website);
+}
+
 @media (max-width: 960px) {
   .quote {
     font-size: 20px;
@@ -65,5 +107,8 @@ p {
   p {
     text-align: center;
     font-size: 14px;
+  }
+  .d-flex {
+    padding-bottom: 10px;
   }
 }
