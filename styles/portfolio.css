@@ -3,6 +3,7 @@
   --green-color-website: #15968e;
   --blue-color-website: #5271ff;
   --background-color-website: #f0f0f0;
+  --background-color-website-darker: #f2f2f1;
   --background-color-footer: #839376;
   --text-color: #242526;
   --heading-font-family: "Saira Extra Condensed", sans-serif;
@@ -92,6 +93,13 @@ hr {
 }
 .fab {
   color: var(--background-color-website);
+}
+.about-top {
+  background-color: white;
+}
+
+.about {
+  padding: 0px 100px 0px 40px;
 }
 
 @media (max-width: 960px) {
