@@ -57,6 +57,9 @@ hr {
   color: var(--background-color-website);
   opacity: 1;
 }
+span {
+  padding-top: 0px !important;
+}
 
 .col-sm {
   padding: 0px;
@@ -68,7 +71,7 @@ hr {
   padding: 0px 20px;
 }
 .col-md-5 {
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 .col-md-7 {
   padding: 0px;
@@ -108,8 +111,13 @@ hr {
   padding: 0px 100px 0px 40px;
 }
 
+.about-anderen {
+  color:red;
+}
 .btn-outline-secondary {
  margin: 20px 0px;
+
+
 
 @media (max-width: 900px) {
   .quote {
