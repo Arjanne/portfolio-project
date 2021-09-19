@@ -135,6 +135,18 @@ span {
   padding-bottom: 40px;
 }
 
+.container-contact {
+  margin-top: 40px;
+}
+.icon {
+  padding: 15px;
+  font-size: 25px;
+  color: var(--blue-color-website);
+}
+.col-md-2 {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .quote {
     font-size: 20px;
@@ -165,5 +177,8 @@ span {
   }
   .col-md-8 {
     padding: 0px 50px;
+  }
+  .container-contact {
+    margin-bottom: 40px;
   }
 }
