@@ -67,6 +67,12 @@ hr {
 .col-md-6 {
   padding: 0px 20px;
 }
+.col-md-5 {
+  padding: 0px 30px;
+}
+.col-md-7 {
+  padding: 0px;
+}
 .quote {
   text-align: center;
   font-size: 30px;
@@ -102,8 +108,14 @@ hr {
   padding: 0px 100px 0px 40px;
 }
 
-@media (max-width: 960px) {
+.btn-outline-secondary {
+ margin: 20px 0px;
+
+@media (max-width: 900px) {
   .quote {
+    font-size: 20px;
+  }
+  .quote  {
     font-size: 20px;
   }
   h1 {
@@ -119,4 +131,8 @@ hr {
   .d-flex {
     padding-bottom: 10px;
   }
+  .col-md-5 {
+    padding: 0px 50px;
+  }
+  
 }
