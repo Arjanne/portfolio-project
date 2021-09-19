@@ -44,6 +44,12 @@ h4 {
   font-weight: 200;
   color: var(--background-color-website);
 }
+h5 {
+  font-family: var(--heading-font-family);
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 30px;
+}
 p {
   font-family: var(--default-font-family);
   font-size: 15px;
@@ -84,9 +90,11 @@ span {
   padding: 0px 30px 0px 30px;
   margin: 0px;
 }
+.quotes {
+  padding-bottom: 40px;
+}
 .footer {
   background-color: var(--background-color-footer);
-  margin-top: 30px;
 }
 .logo-footer {
   padding: 20px;
@@ -103,27 +111,35 @@ span {
 .fab {
   color: var(--background-color-website);
 }
+.container-about {
+  padding-bottom: 40px;
+}
 .about-top {
   background-color: white;
 }
-
 .about {
   padding: 0px 100px 0px 40px;
 }
-
 .about-anderen {
-  color:red;
+  color: red;
 }
 .btn-outline-secondary {
- margin: 20px 0px;
-
-
+  margin: 20px 0px;
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.container-blog {
+  background-color: white;
+  padding-bottom: 40px;
+}
 
 @media (max-width: 900px) {
   .quote {
     font-size: 20px;
   }
-  .quote  {
+  .quote {
     font-size: 20px;
   }
   h1 {
@@ -131,6 +147,11 @@ span {
   }
   h2 {
     font-size: 35px;
+  }
+  h5 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
   }
   p {
     text-align: center;
@@ -142,5 +163,7 @@ span {
   .col-md-5 {
     padding: 0px 50px;
   }
-  
+  .col-md-8 {
+    padding: 0px 50px;
+  }
 }
