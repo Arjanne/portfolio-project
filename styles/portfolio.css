@@ -170,6 +170,9 @@ span {
   text-decoration: none;
   color: white;
 }
+.link-github {
+  color: white;
+}
 
 @media (max-width: 900px) {
   .quote {
