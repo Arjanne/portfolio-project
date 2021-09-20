@@ -16,7 +16,7 @@ body {
 
 .hero {
   text-align: center;
-  padding: 60px 20px 20px 20px;
+  padding: 50px 20px 20px 20px;
 }
 
 h1 {
@@ -40,6 +40,7 @@ h4 {
   font-family: var(--default-font-family);
   font-size: 12px;
   text-align: center;
+  padding-top: 30px;
   padding-bottom: 20px;
   font-weight: 200;
   color: var(--background-color-website);
@@ -58,6 +59,7 @@ p {
 }
 hr {
   margin: auto;
+  margin-bottom: 15px;
   text-align: center;
   max-width: 50%;
   color: var(--background-color-website);
@@ -160,6 +162,13 @@ span {
 .active {
   color: var(--green-color-website) !important;
   font-weight: 600 !important;
+}
+.footer-link {
+  font-family: var(--default-font-family);
+  font-size: 12px;
+  padding: 30px 10px 15px 10px;
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 900px) {
